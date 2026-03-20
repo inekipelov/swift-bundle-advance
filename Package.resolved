@@ -1,0 +1,33 @@
+{
+  "originHash" : "59c16151418f7e39e9e3b1651bbf6da67b70e92930fe2175cfdffa3b1e3861af",
+  "pins" : [
+    {
+      "identity" : "swift-bundle-id",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/inekipelov/swift-bundle-id.git",
+      "state" : {
+        "revision" : "0b4d78dee1951ef2c5b7c6d6e9c89b852117bea4",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "swift-info-dictionary-key",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/inekipelov/swift-info-dictionary-key.git",
+      "state" : {
+        "revision" : "6eba01dd170bb0f6e7820d64ecb79babee6497e7",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "swift-tagged",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-tagged.git",
+      "state" : {
+        "revision" : "3907a9438f5b57d317001dc99f3f11b46882272b",
+        "version" : "0.10.0"
+      }
+    }
+  ],
+  "version" : 3
+}
