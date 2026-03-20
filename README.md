@@ -15,25 +15,6 @@ Info.plist access, and high-level bundle properties.
   <a href="https://developer.apple.com/visionos/"><img src="https://img.shields.io/badge/visionOS-1.0+-000000?logo=apple" alt="visionOS 1.0+"></a>
 </p>
 
-## Installation
-
-Add the package to your `Package.swift` dependencies:
-
-```swift
-.package(url: "https://github.com/inekipelov/swift-bundle-advance.git", from: "0.1.0")
-```
-
-Then add `BundleAdvance` to your target dependencies:
-
-```swift
-.target(
-    name: "YourTarget",
-    dependencies: [
-        "BundleAdvance"
-    ]
-)
-```
-
 ## Usage
 
 ```swift
@@ -46,4 +27,12 @@ print(bundle.shortVersion)    // 1.2.3
 print(bundle.version)         // 123
 print(bundle.identifier)      // com.example.my-app
 print(bundle.isAppExtension)  // false
+```
+
+## Installation
+
+Add the package to your `Package.swift` dependencies:
+
+```swift
+.package(url: "https://github.com/inekipelov/swift-bundle-advance.git", from: "0.1.0")
 ```
